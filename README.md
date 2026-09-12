@@ -3,12 +3,19 @@ containerGuard is a DevOps platform that scans Dockerfiles and docker images for
 
 # basic folder architecture 
 frontend/       -> Next.js dashboard.
+
 backend/        -> REST API.
+
 scanner-worker/ -> Trivy + Hadolint + Dockle + Grype.
+
 report-service/ -> Generate/store scan reports.
+
 redis/          -> Job queue.
+
 postgres/       -> Users + scans + reports.
+
 nginx/          -> Reverse proxy.
+
 monitoring/     -> Prometheus + Grafana.
 
 
